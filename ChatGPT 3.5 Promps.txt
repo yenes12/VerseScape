@@ -1,0 +1,48 @@
+Prompt 1
+
+I want to act like a skilled web developer.
+I want to create a website where people can read stories, and poems and even share their own stories and poems on the site. I want to encourage visitors to sign up or log in to access additional features like commenting and submitting their work.
+I aim to create an environment where people can improve themselves literarily.
+There should be a slogan that will continue to encourage people to read and write. The slogan should look interesting. There should be a section for visitors to sign up or log in and submit.
+I want to have a logo and I want this logo to be in the footer section. Also, create a name for the site under the logo. Resize the logo to 200x200 and arrange it left-aligned. Also, make the navigation section right-sided. There must be a Featured Stories and Poems Section, and the stories and poems you produce must appear in that section with their titles and pictures. I want the stories and poems to contain 150x225 sized images and the content to be included here must not be cropped. The images must have a transition effect when the mouse hovers over them. There should be several likes and dislikes for stories and poems and visitors must be able to see  There must be a categories section available on the site. Stories and poems must be categorized by subject. Each category is clickable and leads to a page with related stories and poems. I want to display a list of recent stories and poems with pictures. Visitors to the website can enter their stories or poems. Visitors to the website can enter their stories or poems. The e-mail must be written as yenestakma@gmail.com. The created website must be compatible with different devices and screen sizes. It must be displayed properly on mobile, tablet, and desktop devices, and the design must be optimized in all dimensions to enhance user experience. 
+Can you give me the structure of a creative landing with sections?
+
+Prompt 2
+
+I want you to write four different stories and poems with titles and pictures for the Featured Stories and Poems Section and Recent Stories and Poems Section on the website. Four of them should appear in one section and the two of them should appear in the other section. The stories content you wrote must be at least 40 words and the poems content you wrote must be at least 12 words, and I want you to write stories and poems in English. The stories and poems must be supported with visuals. No content in this section should be cut.
+
+Prompt 3
+
+Create HTML and CSS files compatible with web browsers and text editors. Write HTML and CSS codes for the Header Section using a light brown theme
+
+Prompt 4
+
+Write HTML and CSS codes for the Hero Section using a light yellow theme with A captivating image or background related to literature.
+
+Prompt 5
+
+Write HTML and CSS codes for the Featured Stories and Poems Section using a light yellow theme and let's add the share and read more buttons. grid layout showing featured stories and poems should be horizontal The grid layout showing featured stories and poems must be horizontal, and the contents of the stories and poems must be uncutted
+
+Prompt 6
+
+Write the all stories and poems in the section code without being lazy
+
+Prompt 7
+
+Write HTML and CSS codes for the Categories Section (Fiction, Poetry, Fantasy, Romance, Mystery  must be horizontal) using a light yellow theme
+
+Prompt 8
+
+Write HTML and CSS codes for the Recent Stories and Poems Section using a light yellow theme and let's add the share and read more buttons. The grid layout showing featured stories and poems must be horizontal, and the contents of the stories and poems must be uncutted
+
+Prompt 9
+
+Write HTML and CSS codes for the Submit Your Work Section using a light yellow theme and add an encouraging slogan to submit
+
+Prompt 10
+
+Write HTML and CSS codes for the Footer Section using a light yellow theme. Log (200x200) and site name. Contact email (yenestakma@gmail.com). Links to social media profiles. Copyright information
+
+
+
+

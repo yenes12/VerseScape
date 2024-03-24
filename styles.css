@@ -1,0 +1,315 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Light brown theme */
+.header {
+    background-color: #E6CBA0; /* Light brown */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    display: block;
+}
+
+.site-name {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #524E4E; /* Dark grey */
+    font-size: 24px;
+    transition: color 0.5s ease;
+}
+
+.navigation ul li a:hover {
+    color: #7B7373; /* Lighter grey */
+}
+/* Light yellow theme */
+.hero {
+    background-color: #FDE3A7; /* Light yellow */
+    background-image: url('literature-background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #524E4E; /* Dark grey */
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.slogan {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #7B7373; /* Dark grey */
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #524E4E; /* Light grey */
+}
+/* Light yellow theme */
+.featured {
+    background-color: #FDE3A7; /* Light yellow */
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.story, .poem {
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.excerpt {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #7B7373; /* Dark grey */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: #7B7373; /* Dark grey */
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #524E4E; /* Light grey */
+}
+/* Light yellow theme */
+.categories {
+    background-color: #FDE3A7; /* Light yellow */
+    padding: 20px;
+}
+
+.categories h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    padding: 10px 20px;
+    background-color: #FFFFFF; /* White */
+    color: #524E4E; /* Dark grey */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.category:hover {
+    background-color: #E6CBA0; /* Light brown */
+}
+/* Light yellow theme */
+.recent {
+    background-color: #FDE3A7; /* Light yellow */
+    padding: 20px;
+}
+
+.recent h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story, .poem {
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Adjust width as needed */
+}
+
+.recent-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.excerpt {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #7B7373; /* Dark grey */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: #7B7373; /* Dark grey */
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #524E4E; /* Light grey */
+}
+/* Light yellow theme */
+.submit {
+    background-color: #FDE3A7; /* Light yellow */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 1.2em;
+    color: #7B7373; /* Dark grey */
+    margin-bottom: 20px;
+}
+
+.submission-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.submission-form input[type="text"],
+.submission-form select,
+.submission-form textarea,
+.submission-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+}
+
+.submission-form textarea {
+    resize: vertical;
+}
+
+.submission-form .btn.submit-btn {
+    background-color: #7B7373; /* Dark grey */
+    color: #FFFFFF; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submission-form .btn.submit-btn:hover {
+    background-color: #524E4E; /* Light grey */
+}
+/* Light yellow theme */
+.footer {
+    background-color: #FDE3A7; /* Light yellow */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .logo {
+    margin-bottom: 20px;
+}
+
+.footer .site-name {
+    font-size: 1.5em;
+}
+
+.footer .contact a {
+    color: #524E4E; /* Dark grey */
+    text-decoration: none;
+}
+
+.footer .contact a:hover {
+    color: #7B7373; /* Lighter grey */
+}
+
+.footer .social-media {
+    margin-bottom: 20px;
+}
+
+.footer .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    color: #524E4E; /* Dark grey */
+    text-decoration: none;
+}
+
+.footer .social-link:hover {
+    color: #7B7373; /* Lighter grey */
+}
+
+.footer .copyright {
+    font-size: 0.8em;
+    color: #524E4E; /* Dark grey */
+}
